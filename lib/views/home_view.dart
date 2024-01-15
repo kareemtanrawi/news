@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:newsapp/widget/category_card.dart';
+import 'package:newsapp/widget/category_list_view.dart';
 // import 'package:google_fonts/google_fonts.dart';
 
 class HomeView extends StatelessWidget {
@@ -31,7 +32,7 @@ class HomeView extends StatelessWidget {
           ],
         ),
       ),
-      body: const CategoryCard(),
+      body: const CategoriesListView(),
     );
   }
 }
